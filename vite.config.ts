@@ -4,8 +4,8 @@
   import path from 'path';
   
   export default defineConfig({
-    base:"/CODECRAFT_WD_01",
     plugins: [react()],
+    base:"/CODECRAFT_WD_01",
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
