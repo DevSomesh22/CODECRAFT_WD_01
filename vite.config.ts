@@ -4,7 +4,6 @@
   import path from 'path';
 
   export default defineConfig({
-    base:'/CODECRAFT_WD_01/'
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -58,4 +57,5 @@
       port: 3000,
       open: true,
     },
+    base:'/CODECRAFT_WD_01/'
   });
