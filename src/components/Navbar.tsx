@@ -48,7 +48,7 @@ export function Navbar() {
                 isScrolled ? 'text-green-700' : 'text-white'
               }`}
             >
-              Ooty Tea
+              Nilgiris Tea
             </button>
           </div>
 
